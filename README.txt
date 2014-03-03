@@ -34,10 +34,14 @@ de inicio, 2º POST con datos de usuario). Se ha realizado este análisis mediante
 
 5. Implementación de dichos fetches en la aplicación.
 
+6. Mostrar el contenido de la respuesta del segundo fetch (POST con los dates de autenticación) que debería ser el contenido 
+completo de la cuenta de Dropbox del usuario (todos los archivos y carpetas).
+
 
 DIFICULTADES ENCONTRADAS
 
--A la hora del manejo de 'regular expressions' con Java para extraer información de las páginas web cargadas.
+-A la hora del manejo de 'regular expressions' con Java para extraer información de las páginas web cargadas (por ello no se 
+ha podido implementar la lógica para extraer las cookies del primer fetch o para filtrar los archivos con extensión .ebup).
 
--A la hora de cargar un contenido en JavaScript en Android (la información de los archivos y carpetas contenidos en una 
-cuenta de dropbox se muestran en JavaScript).
+-A la hora de cargar un contenido en JavaScript en Android (por eso no se ha podido cargar la información completa de los 
+archivos y carpetas contenidos en una cuenta de Dropbox, ya que se muestran en JavaScript).
